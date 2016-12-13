@@ -21,7 +21,13 @@
     <%= f.text_area :memo %>
   </div>
 
-  <div class="actions">
+  <div class="field">
+    <%= f.label :picture %><br>
+    <%= f.file_field :picture %>
+  </div>
+
+  <div class="action">
     <%= f.submit %>
   </div>
+
 <% end %>

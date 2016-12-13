@@ -1,0 +1,12 @@
+<%= form_tag(search_books_path, method: :get) do %>
+
+  <div class="field">
+    <%= label_tag "title検索"%>
+   <%= text_field_tag "search" %>
+  </div>
+
+  <div class="actions">
+    <%= submit_tag "検索開始" %>
+  </div>
+
+<% end %>
